@@ -64,6 +64,43 @@ small {
 }
 
 /* line 1, ../sass/pages/_homepage.scss */
+hr {
+  width: 768px;
+  height: 0;
+  border: solid 0.4px #707070;
+}
+
+/* line 6, ../sass/pages/_homepage.scss */
+button {
+  width: 180px;
+  height: 50px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+}
+
+/* line 12, ../sass/pages/_homepage.scss */
+input {
+  outline: 0;
+  width: 376px;
+  border-width: 0 0 2px;
+  border-color: #707070;
+}
+
+/* line 18, ../sass/pages/_homepage.scss */
+textarea {
+  outline: 0;
+  width: 774px;
+  border-width: 0 0 2px;
+  border-color: #707070;
+  resize: none;
+}
+
+/* line 25, ../sass/pages/_homepage.scss */
+header {
+  font-size: 56px;
+}
+
+/* line 29, ../sass/pages/_homepage.scss */
 .nav-link {
   font-family: "Lato-Regular";
   color: #222222;
@@ -71,7 +108,7 @@ small {
   display: inline;
 }
 
-/* line 7, ../sass/pages/_homepage.scss */
+/* line 35, ../sass/pages/_homepage.scss */
 .circle {
   margin-right: 30px;
   border: solid 1px #222222;
@@ -82,96 +119,103 @@ small {
   display: inline-block;
 }
 
-/* line 16, ../sass/pages/_homepage.scss */
+/* line 44, ../sass/pages/_homepage.scss */
 .line {
   width: 16px;
   height: 0;
   border: solid 1px #222222;
 }
 
-/* line 21, ../sass/pages/_homepage.scss */
+/* line 49, ../sass/pages/_homepage.scss */
 .fab {
   padding-left: 5px;
 }
 
-/* line 24, ../sass/pages/_homepage.scss */
+/* line 52, ../sass/pages/_homepage.scss */
 .fa-facebook-f {
   padding-left: 8px;
 }
 
-/* line 27, ../sass/pages/_homepage.scss */
+/* line 57, ../sass/pages/_homepage.scss */
 .image, .image-large, .image-medium, .image-small {
   background-size: cover;
   background-position: center;
   width: 100%;
 }
-/* line 31, ../sass/pages/_homepage.scss */
+/* line 61, ../sass/pages/_homepage.scss */
 .image-large {
   height: 481px;
 }
-/* line 35, ../sass/pages/_homepage.scss */
+/* line 65, ../sass/pages/_homepage.scss */
 .image-medium {
   height: 410px;
 }
-/* line 39, ../sass/pages/_homepage.scss */
+/* line 69, ../sass/pages/_homepage.scss */
 .image-small {
   height: 140px;
   border-radius: 6px;
 }
 
-/* line 45, ../sass/pages/_homepage.scss */
+/* line 75, ../sass/pages/_homepage.scss */
 .avatar, .avatar-square, .avatar-circle {
   background-size: cover;
   background-position: center;
   width: 82px;
   height: 82px;
 }
-/* line 53, ../sass/pages/_homepage.scss */
+/* line 83, ../sass/pages/_homepage.scss */
 .avatar-circle {
   border-radius: 50%;
 }
 
-/* line 58, ../sass/pages/_homepage.scss */
+/* line 90, ../sass/pages/_homepage.scss */
 .section2 {
   padding: 31px 10px 10px;
 }
 
-/* line 61, ../sass/pages/_homepage.scss */
+/* line 93, ../sass/pages/_homepage.scss */
 .section3 {
   padding: 39px 20px;
 }
 
-/* line 64, ../sass/pages/_homepage.scss */
+/* line 98, ../sass/pages/_homepage.scss */
 .footer-nav {
   position: relative;
   padding-top: 28px;
 }
 
-/* line 68, ../sass/pages/_homepage.scss */
+/* line 102, ../sass/pages/_homepage.scss */
 .footer-nav-media {
   position: relative;
   left: 66px;
   padding-top: 28px;
 }
 
-/* line 73, ../sass/pages/_homepage.scss */
+/* line 107, ../sass/pages/_homepage.scss */
 .footer-nav-link {
   padding-left: 0px;
   padding-right: 72px;
 }
 
-/* line 77, ../sass/pages/_homepage.scss */
+/* line 111, ../sass/pages/_homepage.scss */
 .footer-email {
   padding-top: 70px;
   width: 252.5px;
 }
 
-/* line 81, ../sass/pages/_homepage.scss */
+/* line 115, ../sass/pages/_homepage.scss */
+.footer-content {
+  font-family: "Lora-Bold";
+  font-weight: bold;
+  color: #222222;
+}
+
+/* line 122, ../sass/pages/_homepage.scss */
 .media-icon-aside {
   padding-right: 45px;
 }
 
-/* line 84, ../sass/pages/_homepage.scss */
+/* line 125, ../sass/pages/_homepage.scss */
 .date {
   font-family: "Lora-Italic";
   font-size: 12px;
@@ -179,7 +223,7 @@ small {
   color: #707070;
 }
 
-/* line 90, ../sass/pages/_homepage.scss */
+/* line 131, ../sass/pages/_homepage.scss */
 .content {
   font-family: "Lora-Regular";
   font-size: 16px;
@@ -187,7 +231,7 @@ small {
   color: #222222;
 }
 
-/* line 96, ../sass/pages/_homepage.scss */
+/* line 137, ../sass/pages/_homepage.scss */
 .comment-content {
   font-family: "Lora-Regular";
   font-size: 14px;
@@ -196,7 +240,7 @@ small {
   color: #222222;
 }
 
-/* line 103, ../sass/pages/_homepage.scss */
+/* line 144, ../sass/pages/_homepage.scss */
 .quote {
   font-family: "Lora-Italic";
   font-size: 18px;
@@ -206,7 +250,7 @@ small {
   color: #222222;
 }
 
-/* line 111, ../sass/pages/_homepage.scss */
+/* line 152, ../sass/pages/_homepage.scss */
 .side-comments-like {
   font-family: "Lato-Regular";
   font-size: 12px;
@@ -215,7 +259,7 @@ small {
   color: #707070;
 }
 
-/* line 118, ../sass/pages/_homepage.scss */
+/* line 159, ../sass/pages/_homepage.scss */
 .side-comments-like1 {
   padding-left: 245px;
   font-family: "Lato-Regular";
@@ -225,7 +269,7 @@ small {
   color: #707070;
 }
 
-/* line 126, ../sass/pages/_homepage.scss */
+/* line 167, ../sass/pages/_homepage.scss */
 .travel {
   font-family: "Lato-Regular";
   font-size: 12px;
@@ -234,7 +278,7 @@ small {
   color: #222222;
 }
 
-/* line 133, ../sass/pages/_homepage.scss */
+/* line 174, ../sass/pages/_homepage.scss */
 .hashtag {
   font-family: "Lora-Italic";
   font-size: 13px;
@@ -242,7 +286,7 @@ small {
   color: #222222;
 }
 
-/* line 139, ../sass/pages/_homepage.scss */
+/* line 180, ../sass/pages/_homepage.scss */
 .name {
   font-family: "Lato-Bold";
   font-size: 14px;
@@ -250,7 +294,7 @@ small {
   color: #222222;
 }
 
-/* line 145, ../sass/pages/_homepage.scss */
+/* line 186, ../sass/pages/_homepage.scss */
 .send-now-btn {
   margin-top: 126px;
   margin-left: 221px;
@@ -261,7 +305,7 @@ small {
   color: #222222;
 }
 
-/* line 154, ../sass/pages/_homepage.scss */
+/* line 195, ../sass/pages/_homepage.scss */
 .subscribe-btn {
   font-family: "Lato-Regular";
   width: 113px;
@@ -273,54 +317,47 @@ small {
   bottom: 32px;
 }
 
-/* line 164, ../sass/pages/_homepage.scss */
-.footer-content {
-  font-family: "Lora-Bold";
-  font-weight: bold;
-  color: #222222;
-}
-
-/* line 169, ../sass/pages/_homepage.scss */
+/* line 206, ../sass/pages/_homepage.scss */
 .mini-article-content {
   font-family: "Lora-Regular";
   font-size: 24px;
   line-height: 1.21;
 }
 
-/* line 174, ../sass/pages/_homepage.scss */
+/* line 211, ../sass/pages/_homepage.scss */
 .logo {
   margin-left: -42px;
 }
 
-/* line 177, ../sass/pages/_homepage.scss */
+/* line 214, ../sass/pages/_homepage.scss */
 .footer-nav-linkv1 {
   padding-left: 81px;
 }
 
-/* line 180, ../sass/pages/_homepage.scss */
+/* line 217, ../sass/pages/_homepage.scss */
 .next-section {
   padding-left: 183px;
 }
 
-/* line 183, ../sass/pages/_homepage.scss */
+/* line 220, ../sass/pages/_homepage.scss */
 .angle-right-footer {
   padding-left: 278px;
 }
 
-/* line 186, ../sass/pages/_homepage.scss */
+/* line 223, ../sass/pages/_homepage.scss */
 .show-all-comments-section {
   position: relative;
   left: 200px;
 }
 
-/* line 190, ../sass/pages/_homepage.scss */
+/* line 227, ../sass/pages/_homepage.scss */
 .email {
   position: relative;
   bottom: 81px;
   left: 400px;
 }
 
-/* line 195, ../sass/pages/_homepage.scss */
+/* line 233, ../sass/pages/_homepage.scss */
 .header-title {
   margin: 0 auto;
   text-align: center;
@@ -329,60 +366,23 @@ small {
   color: #222222;
 }
 
-/* line 202, ../sass/pages/_homepage.scss */
+/* line 240, ../sass/pages/_homepage.scss */
 .header-date {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 206, ../sass/pages/_homepage.scss */
+/* line 244, ../sass/pages/_homepage.scss */
 .header-section {
   margin-top: 80px;
 }
 
-/* line 209, ../sass/pages/_homepage.scss */
+/* line 247, ../sass/pages/_homepage.scss */
 .comment-section {
   padding-top: 130px;
 }
 
-/* line 212, ../sass/pages/_homepage.scss */
+/* line 250, ../sass/pages/_homepage.scss */
 .name-form-section {
   padding-left: 26px;
-}
-
-/* line 215, ../sass/pages/_homepage.scss */
-hr {
-  width: 768px;
-  height: 0;
-  border: solid 0.4px #707070;
-}
-
-/* line 220, ../sass/pages/_homepage.scss */
-button {
-  width: 180px;
-  height: 50px;
-  border: solid 1px #707070;
-  background-color: #ffffff;
-}
-
-/* line 226, ../sass/pages/_homepage.scss */
-input {
-  outline: 0;
-  width: 376px;
-  border-width: 0 0 2px;
-  border-color: #707070;
-}
-
-/* line 232, ../sass/pages/_homepage.scss */
-textarea {
-  outline: 0;
-  width: 774px;
-  border-width: 0 0 2px;
-  border-color: #707070;
-  resize: none;
-}
-
-/* line 239, ../sass/pages/_homepage.scss */
-header {
-  font-size: 56px;
 }

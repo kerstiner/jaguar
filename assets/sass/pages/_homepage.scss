@@ -1,3 +1,31 @@
+hr {
+  width: 768px;
+  height: 0;
+  border: solid 0.4px $dim-gray;
+}
+button{
+  width: 180px;
+  height: 50px;
+  border: solid 1px $dim-gray;
+  background-color: $white;
+}
+input {
+  outline: 0;
+  width: 376px;
+  border-width: 0 0 2px;
+  border-color: #707070;
+}
+textarea{
+  outline: 0;
+  width: 774px;
+  border-width: 0 0 2px;
+  border-color: #707070;
+  resize: none;
+}
+header{
+  font-size: 56px;
+}
+// Nav Bar
 .nav-link{
   font-family: $Lato-Regular;
   color: $nero;
@@ -24,6 +52,8 @@
 .fa-facebook-f{
   padding-left: 8px;
 }
+
+// Image
 .image{
   background-size: cover;
   background-position: center;
@@ -54,13 +84,17 @@
     @extend .avatar;
     border-radius: 50%;
   }
-}
+} 
+
+//section 
 .section2{
   padding: 31px 10px 10px;
 }
 .section3{
   padding: 39px 20px;
 }
+
+// Footer
 .footer-nav{
   position: relative;
   padding-top: 28px;
@@ -78,6 +112,13 @@
   padding-top: 70px;
   width: 252.5px;
 }
+.footer-content{
+  font-family: $Lora-Bold;
+  font-weight: bold;
+  color: $nero;
+}
+
+
 .media-icon-aside{
   padding-right: 45px;
 }
@@ -161,11 +202,7 @@
   left: 163px;
   bottom: 32px;
 }
-.footer-content{
-  font-family: $Lora-Bold;
-  font-weight: bold;
-  color: $nero;
-}
+
 .mini-article-content{
   font-family: $Lora-Regular;
   font-size: 24px;
@@ -192,6 +229,7 @@
   bottom: 81px;
   left: 400px;
 }
+//header
 .header-title{
   margin: 0 auto;
   text-align: center;
@@ -211,31 +249,4 @@
 }
 .name-form-section{
   padding-left: 26px;
-}
-hr {
-  width: 768px;
-  height: 0;
-  border: solid 0.4px $dim-gray;
-}
-button{
-  width: 180px;
-  height: 50px;
-  border: solid 1px $dim-gray;
-  background-color: $white;
-}
-input {
-  outline: 0;
-  width: 376px;
-  border-width: 0 0 2px;
-  border-color: #707070;
-}
-textarea{
-	outline: 0;
-	width: 774px;
-  border-width: 0 0 2px;
-  border-color: #707070;
-  resize: none;
-}
-header{
-  font-size: 56px;
 }
