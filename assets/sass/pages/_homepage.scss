@@ -11,15 +11,15 @@ button{
 }
 input {
   outline: 0;
-  width: 376px;
+  width: 238px;
   border-width: 0 0 2px;
-  border-color: #707070;
+  border-color: $dim-gray;
 }
 textarea{
   outline: 0;
   width: 774px;
   border-width: 0 0 2px;
-  border-color: #707070;
+  border-color: $dim-gray;
   resize: none;
 }
 header{
@@ -34,7 +34,7 @@ header{
 }
 .circle{
   margin-right: 30px;
-  border: solid 1px #222222;
+  border: solid 1px $nero;
   width: 27px;
   height: 27px;
   background: $white; 
@@ -44,7 +44,7 @@ header{
 .line{
   width: 16px;
   height: 0;
-  border: solid 1px #222222;
+  border: solid 1px $nero;
 }
 .fab{
   padding-left: 5px;
@@ -98,27 +98,41 @@ header{
 .footer-nav{
   position: relative;
   padding-top: 28px;
-}
-.footer-nav-media{
-  position: relative;
-  left: 66px;
-  padding-top: 28px;
-}
-.footer-nav-link{
+  &-media{
+    @extend .footer-nav;
+  }
+  &-link{
     padding-left: 0px;
     padding-right: 72px;
+      &-links{
+        @extend .footer-nav-link;
+        padding-left: 81px;
+      }
+  }
+  &-email{
+    padding-top: 70px;
+    width: 252.5px;
+  }
+  &-content{
+    font-family: $Lora-Bold;
+    font-weight: bold;
+    color: $nero;
+  }
 }
-.footer-email{
-  padding-top: 70px;
-  width: 252.5px;
+//header
+.header-date{
+  margin: 0 auto;
+  text-align: center;
+  &-title{
+    @extend .header-date;
+    font-family: $Lora-Regular;
+    font-size: 36px;
+    color: $nero;
+  }
+  &-section{
+    margin-top: 80px;
+  }
 }
-.footer-content{
-  font-family: $Lora-Bold;
-  font-weight: bold;
-  color: $nero;
-}
-
-
 .media-icon-aside{
   padding-right: 45px;
 }
@@ -133,13 +147,12 @@ header{
   font-size: 16px;
   line-height: 1.94;
   color: $nero;
-}
-.comment-content{
-  font-family: $Lora-Regular;
-  font-size: 14px;
-  font-stretch: normal; 
-  line-height: 2.21;
-  color: $nero;
+  &-comment{
+    @extend .content;
+    font-size: 14px;
+    font-stretch: normal; 
+    line-height: 2.21;
+  }
 }
 .quote{
   font-family: $Lora-Italic;
@@ -149,20 +162,15 @@ header{
   letter-spacing: 0.5px;
   color: $nero;
 }
-.side-comments-like{
+.side{
   font-family: $Lato-Regular;
   font-size: 12px;
-  line-height: -1.75;
   letter-spacing: 2.4px;
   color: $dim-gray;
-}
-.side-comments-like1{
-  padding-left: 245px;
-  font-family: $Lato-Regular;
-  font-size: 12px;
-  line-height: -1.75;
-  letter-spacing: 2.4px;
-  color: $dim-gray;
+  &-comments{
+    @extend .side;
+    padding-left: 245px;
+  }
 }
 .travel{
   font-family: $Lato-Regular;
@@ -196,13 +204,12 @@ header{
   font-family: $Lato-Regular;
   width: 113px;
   height: 32px;
-  border: solid 1px #222222;
-  background-color: #ffffff;
+  border: solid 1px $nero;
+  background-color: $white;
   position: relative;
   left: 163px;
   bottom: 32px;
 }
-
 .mini-article-content{
   font-family: $Lora-Regular;
   font-size: 24px;
@@ -210,9 +217,6 @@ header{
 }
 .logo{
   margin-left: -42px;
-}
-.footer-nav-linkv1{
-  padding-left: 81px;
 }
 .next-section{
   padding-left: 183px;
@@ -228,21 +232,6 @@ header{
   position: relative;
   bottom: 81px;
   left: 400px;
-}
-//header
-.header-title{
-  margin: 0 auto;
-  text-align: center;
-  font-family: $Lora-Regular;
-  font-size: 36px;
-  color: $nero;
-}
-.header-date{
-  margin: 0 auto;
-  text-align: center;
-}
-.header-section{
-  margin-top: 80px;
 }
 .comment-section{
   padding-top: 130px;

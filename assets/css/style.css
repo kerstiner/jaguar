@@ -81,7 +81,7 @@ button {
 /* line 12, ../sass/pages/_homepage.scss */
 input {
   outline: 0;
-  width: 376px;
+  width: 238px;
   border-width: 0 0 2px;
   border-color: #707070;
 }
@@ -179,43 +179,53 @@ header {
 }
 
 /* line 98, ../sass/pages/_homepage.scss */
-.footer-nav {
+.footer-nav, .footer-nav-media {
   position: relative;
   padding-top: 28px;
 }
-
-/* line 102, ../sass/pages/_homepage.scss */
-.footer-nav-media {
-  position: relative;
-  left: 66px;
-  padding-top: 28px;
-}
-
-/* line 107, ../sass/pages/_homepage.scss */
-.footer-nav-link {
+/* line 104, ../sass/pages/_homepage.scss */
+.footer-nav-link, .footer-nav-link-links {
   padding-left: 0px;
   padding-right: 72px;
 }
-
-/* line 111, ../sass/pages/_homepage.scss */
-.footer-email {
+/* line 107, ../sass/pages/_homepage.scss */
+.footer-nav-link-links {
+  padding-left: 81px;
+}
+/* line 112, ../sass/pages/_homepage.scss */
+.footer-nav-email {
   padding-top: 70px;
   width: 252.5px;
 }
-
-/* line 115, ../sass/pages/_homepage.scss */
-.footer-content {
+/* line 116, ../sass/pages/_homepage.scss */
+.footer-nav-content {
   font-family: "Lora-Bold";
   font-weight: bold;
   color: #222222;
 }
 
-/* line 122, ../sass/pages/_homepage.scss */
+/* line 123, ../sass/pages/_homepage.scss */
+.header-date, .header-date-title {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 126, ../sass/pages/_homepage.scss */
+.header-date-title {
+  font-family: "Lora-Regular";
+  font-size: 36px;
+  color: #222222;
+}
+/* line 132, ../sass/pages/_homepage.scss */
+.header-date-section {
+  margin-top: 80px;
+}
+
+/* line 136, ../sass/pages/_homepage.scss */
 .media-icon-aside {
   padding-right: 45px;
 }
 
-/* line 125, ../sass/pages/_homepage.scss */
+/* line 139, ../sass/pages/_homepage.scss */
 .date {
   font-family: "Lora-Italic";
   font-size: 12px;
@@ -223,24 +233,21 @@ header {
   color: #707070;
 }
 
-/* line 131, ../sass/pages/_homepage.scss */
-.content {
+/* line 145, ../sass/pages/_homepage.scss */
+.content, .content-comment {
   font-family: "Lora-Regular";
   font-size: 16px;
   line-height: 1.94;
   color: #222222;
 }
-
-/* line 137, ../sass/pages/_homepage.scss */
-.comment-content {
-  font-family: "Lora-Regular";
+/* line 150, ../sass/pages/_homepage.scss */
+.content-comment {
   font-size: 14px;
   font-stretch: normal;
   line-height: 2.21;
-  color: #222222;
 }
 
-/* line 144, ../sass/pages/_homepage.scss */
+/* line 157, ../sass/pages/_homepage.scss */
 .quote {
   font-family: "Lora-Italic";
   font-size: 18px;
@@ -250,26 +257,19 @@ header {
   color: #222222;
 }
 
-/* line 152, ../sass/pages/_homepage.scss */
-.side-comments-like {
+/* line 165, ../sass/pages/_homepage.scss */
+.side, .side-comments {
   font-family: "Lato-Regular";
   font-size: 12px;
-  line-height: -1.75;
   letter-spacing: 2.4px;
   color: #707070;
 }
-
-/* line 159, ../sass/pages/_homepage.scss */
-.side-comments-like1 {
+/* line 170, ../sass/pages/_homepage.scss */
+.side-comments {
   padding-left: 245px;
-  font-family: "Lato-Regular";
-  font-size: 12px;
-  line-height: -1.75;
-  letter-spacing: 2.4px;
-  color: #707070;
 }
 
-/* line 167, ../sass/pages/_homepage.scss */
+/* line 175, ../sass/pages/_homepage.scss */
 .travel {
   font-family: "Lato-Regular";
   font-size: 12px;
@@ -278,7 +278,7 @@ header {
   color: #222222;
 }
 
-/* line 174, ../sass/pages/_homepage.scss */
+/* line 182, ../sass/pages/_homepage.scss */
 .hashtag {
   font-family: "Lora-Italic";
   font-size: 13px;
@@ -286,7 +286,7 @@ header {
   color: #222222;
 }
 
-/* line 180, ../sass/pages/_homepage.scss */
+/* line 188, ../sass/pages/_homepage.scss */
 .name {
   font-family: "Lato-Bold";
   font-size: 14px;
@@ -294,7 +294,7 @@ header {
   color: #222222;
 }
 
-/* line 186, ../sass/pages/_homepage.scss */
+/* line 194, ../sass/pages/_homepage.scss */
 .send-now-btn {
   margin-top: 126px;
   margin-left: 221px;
@@ -305,7 +305,7 @@ header {
   color: #222222;
 }
 
-/* line 195, ../sass/pages/_homepage.scss */
+/* line 203, ../sass/pages/_homepage.scss */
 .subscribe-btn {
   font-family: "Lato-Regular";
   width: 113px;
@@ -317,72 +317,47 @@ header {
   bottom: 32px;
 }
 
-/* line 206, ../sass/pages/_homepage.scss */
+/* line 213, ../sass/pages/_homepage.scss */
 .mini-article-content {
   font-family: "Lora-Regular";
   font-size: 24px;
   line-height: 1.21;
 }
 
-/* line 211, ../sass/pages/_homepage.scss */
+/* line 218, ../sass/pages/_homepage.scss */
 .logo {
   margin-left: -42px;
 }
 
-/* line 214, ../sass/pages/_homepage.scss */
-.footer-nav-linkv1 {
-  padding-left: 81px;
-}
-
-/* line 217, ../sass/pages/_homepage.scss */
+/* line 221, ../sass/pages/_homepage.scss */
 .next-section {
   padding-left: 183px;
 }
 
-/* line 220, ../sass/pages/_homepage.scss */
+/* line 224, ../sass/pages/_homepage.scss */
 .angle-right-footer {
   padding-left: 278px;
 }
 
-/* line 223, ../sass/pages/_homepage.scss */
+/* line 227, ../sass/pages/_homepage.scss */
 .show-all-comments-section {
   position: relative;
   left: 200px;
 }
 
-/* line 227, ../sass/pages/_homepage.scss */
+/* line 231, ../sass/pages/_homepage.scss */
 .email {
   position: relative;
   bottom: 81px;
   left: 400px;
 }
 
-/* line 233, ../sass/pages/_homepage.scss */
-.header-title {
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Lora-Regular";
-  font-size: 36px;
-  color: #222222;
-}
-
-/* line 240, ../sass/pages/_homepage.scss */
-.header-date {
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* line 244, ../sass/pages/_homepage.scss */
-.header-section {
-  margin-top: 80px;
-}
-
-/* line 247, ../sass/pages/_homepage.scss */
+/* line 236, ../sass/pages/_homepage.scss */
 .comment-section {
   padding-top: 130px;
 }
 
-/* line 250, ../sass/pages/_homepage.scss */
+/* line 239, ../sass/pages/_homepage.scss */
 .name-form-section {
   padding-left: 26px;
 }
